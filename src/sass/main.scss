@@ -1,7 +1,55 @@
-/*
- * Главный файл стилей.
- * Все паршалы подключаются сюда.
- */
+body {
+  padding: 80px 80px;
+}
 
-// Стили для файла с примером HTML-фрагмента
-@import './example';
+.country-form {
+  margin-bottom: 40px;
+}
+
+.country-form-input {
+  height: 70px;
+  width: 400px;
+  // border: 2px solid black;
+  // border-radius: 20px;
+}
+
+.country-form-input:focus,
+.country-form-input:hover,
+.country-form-input:active {
+  // border-radius: 20px;
+  border-color: blue;
+}
+
+.card-name {
+  font-size: 80px;
+  margin: 0;
+  margin-left: 20px;
+}
+
+.card-title {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-image {
+  width: auto;
+  height: 85px;
+  margin: 0;
+  border: 1px solid black;
+  box-shadow: 5px 5px 5px gray;
+}
+
+.card-text {
+  font-size: 30px;
+}
+
+.card-text b {
+  margin-right: 20px;
+}
+
+.card-languages-list {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}

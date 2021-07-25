@@ -9,14 +9,11 @@ body {
 .country-form-input {
   height: 70px;
   width: 400px;
-  // border: 2px solid black;
-  // border-radius: 20px;
 }
 
 .country-form-input:focus,
 .country-form-input:hover,
 .country-form-input:active {
-  // border-radius: 20px;
   border-color: blue;
 }
 
@@ -52,4 +49,36 @@ body {
   list-style: none;
   display: flex;
   flex-direction: row;
+}
+
+.card-languages-item:not(:last-child)::after {
+  margin-right: 5px;
+  content: ',';
+}
+
+.countries-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.country-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  margin-bottom: 15px;
+}
+
+.image-item {
+  object-fit: cover;
+  width: 90px;
+  height: 60px;
+  margin: 0;
+  border: 1px solid black;
+  box-shadow: 5px 5px 5px gray;
+}
+
+.name-item {
+  font-size: 55px;
+  margin: 0;
+  margin-left: 15px;
 }

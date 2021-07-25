@@ -1,2 +1,2 @@
 import './sass/main.scss';
-import './js/rest-countries-api.js';
+import './js/restCountriesApi';

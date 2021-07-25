@@ -20,7 +20,7 @@ function onSearch(e) {
     return;
   }
 
-  API.fetchCountries(searchQuery).then(getCountries).catch(console.log);
+  API.fetchCountries(searchQuery).then(getCountries).catch(onFetchError);
 }
 
 function getCountries(country) {

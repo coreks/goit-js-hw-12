@@ -18,4 +18,4 @@ function clearContainer() {
   refs.cardContainer.innerHTML = '';
 }
 
-export default { renderCountryCard, renderCounrtiesList, clearContainer };
+export { renderCountryCard, renderCounrtiesList, clearContainer };
